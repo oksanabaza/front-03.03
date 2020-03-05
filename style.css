@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  background: black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1140px;
+  height: 207px;
+  background: black;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.main_content {
+  display: flex;
+  flex-direction: column;
+  width: 877px;
+  height: 875px;
+  border-left: 8px solid blue;
+}
+.question_1 {
+  display: flex;
+  flex-direction: column;
+  width: 858px;
+  height: 246px;
+  margin-left: 70px;
+}
+
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 33px;
+}
+.proposition {
+  display: flex;
+  margin-top: 16px;
+}
+.question_icon {
+  opacity: 0.5;
+  background: #fff;
+}
+p {
+  font-family: "Rubik", sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.5;
+  width: 643px;
+  height: 38px;
+  margin-left: 11px;
+  opacity: 50%;
+}
+.radio_button {
+  display: flex;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  width: 739px;
+  height: 43px;
+  margin-top: 32px;
+}
+.radio_button:active {
+  color: blue;
+}
+
+label {
+  margin-left: 16px;
+}
+#contactChoice1 {
+  width: 24px;
+  height: 24px;
+}
+
+.question_2 {
+  display: flex;
+  flex-direction: column;
+  width: 757px;
+  height: 152px;
+  margin-left: 70px;
+}
+.proposition_2 {
+  display: flex;
+  margin-top: 16px;
+}
+
+.title_2 {
+  margin-top: 80px;
+}
+.question_3 {
+  margin-left: 70px;
+}
+
+.title_3 {
+  color: red;
+}
+.text_2 {
+  margin-bottom: 164px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 24px;
+}
+input {
+  display: flex;
+}
+.red {
+  color: red;
+  margin-top: 24px;
+  opacity: 1;
+}
+.age {
+  display: flex;
+}
+
+h3 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 12px;
+}
+.question_4 {
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
